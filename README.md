@@ -16,18 +16,6 @@ XAMMP SERVER version 3.2.2
 BootStrap:
 ✅ Get Started BootStrap Here. 👉 https://getbootstrap.com/docs/5.0/getting-started/introduction/
 
-Live Demo:
-✅ Click here to See Online Demo: https://app.netlify.com/teams/nikitayamgar/builds/5fe6d79dee5a2f8684f7a406
-
-Netlify platform:
-
-👍 💎 I have Used Netlify platform for Deploying Project. 💎
-
-👉 Just Sign in and use This Platform for Deploying Projects: https://www.netlify.com/
-
-
-✋ If you have any queries related this project , 🙏 free to feel you can ask me.🙏
-
 Email id:
 
 📧 nikitayamgar1291998@gmail.com
