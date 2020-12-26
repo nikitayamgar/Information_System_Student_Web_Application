@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="Keywords" content="College, Pokhara, IT College, Lions Marga, college in pokhara, nepalIT">
+		 <meta name="author" content="Bishworaj Poudel">
+	     <link rel="stylesheet" type="text/css" href="css/style.css">
+<script src="javascript/js.js="></script>
+
+<body class="body">
+	<header class="mainheader">
+			<img src="images/logo.png">
+		<content id="search">
+			<form>
+				<input type="text" name="search" placeholder="Search anything..." onclick="window.location.href='search.html'">
+			</form>
+		</content>
+	
+	<nav>
+		<ul>
+			<li><a href="adminindex.html">Home</a></li>
+			<li><a href="std_register.html">Student Register</a></li>
+			<li><a href="cmp_register.html">Add Company</a></li>
+			<li><a href="Database/student_list.php">Student List</a></li>
+			<li><a href=" DataBase/company_list.php">Company List</a></li>
+			<li><a href=" DataBase/Student_Sorted_list.php">Sort Student List</a></li>
+		
+		</ul> 
+	</nav>
+	
+	  <title>Company Register</title>
+	  <meta charset="utf-8">
+	  <meta name="viewport" content="width=device-width, initial-scale=1">
+	  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<style>
+	.txt
+	{
+		height:150px;
+		width:100%;
+		border-radius:10px;
+	}
+   </style>
+  </body>
+  <style>
+	.txt
+	{
+		height:150px;
+		width:100%;
+		border-radius:10px;
+	}
+  .txt
+	{
+		height:150px;
+		width:100%;
+		border-radius:10px;
+	}
+  </style>
+  <title>Company Register</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style>
+	.txt
+	{
+		height:150px;
+		width:100%;
+		border-radius:10px;
+	}
+  </style>
+</head>
+
+<body>
+ 
+<div class="container">
+  <div class="panel-group">
+	<h2>Company Register</h2>
+    <div class="panel panel-primary">
+      <div class="panel-heading">Compny Registaration Form</div>
+		    <div class="panel-body">
+			  <form method="post" action="DataBase/cmp_register.php">
+				  <div class="col-xs-4">
+						<label for="ex2">Company Name:</label>
+						<input name="name" id="name" class="form-control" type="text"
+						pattern="[A-Za-z]{3,20}"
+						placeholder="Compony Name" required>
+					</div>
+					
+					<div class="col-xs-4">
+					<label for="ex2">Company Type:</label>
+					<select class="form-control" id="sel1" name="type" required>
+						<option>Select Position</option>
+						<option>MNC</option>
+						<option>Indian</option>
+					 </select>
+					</div>
+					
+					<div class="col-xs-4">
+				   <label for="ex2">Experiance:</label>
+					<select class="form-control" id="sel1" name="experiance" required>
+						<option>Select Experiance</option>
+						<option>Fresher</option>
+						<option>1</option>
+						<option>2</option>
+						<option>3</option>
+					</select>
+					</div><br><br><br><br><br>
+				  
+				   <div class="col-md-4">
+					<div class="thumbnail">
+						<img src="image/image3.jpg" alt="Fjords" style="width:100%">
+					</div>
+				  </div>
+				  
+				  <div class="col-xs-4">
+					<label for="ex2">10th Criteria:</label>
+					<select class="form-control" id="sel1" name="tenth"required>
+					<option>Select 10th Criteria</option>
+						<option>50%</option>
+						<option>55%</option>
+						<option>58%</option>
+						<option>60%</option>
+						<option>65%</option>
+					 </select>
+					</div>
+					
+				  <div class="col-xs-4">
+					<label for="ex2">12th/Diploma Criteria:</label>
+					<select class="form-control" id="sel1" name="diploma" required>
+					<option>Select 12th/Diploma Criteria</option>
+						<option>50%</option>
+						<option>55%</option>
+						<option>58%</option>
+						<option>60%</option>
+						<option>65%</option>
+					 </select>
+					</div><br><br><br><br><br>
+				  
+					 <div class="col-xs-4">
+					<label for="ex2">Degree Criteria:</label>
+					<select class="form-control" id="sel1" name="degree" required>
+					<option>Select Degree Criteria</option>
+						<option>50%</option>
+						<option>55%</option>
+						<option>58%</option>
+						<option>60%</option>
+						<option>65%</option>
+					 </select>
+					</div>
+					
+				  
+
+				  
+				   <div class="col-xs-4">
+					<label for="ex2">Date:</label>
+					<input name="language" id="name" class="form-control" type="date" required>
+					</div><br><br><br><br><br>
+				  
+				  <div class="col-xs-4">
+					<label for="ex2">Passport:</label>
+					<select class="form-control" id="sel1" name="passport" required>
+						<option>Select Passport</option>
+						<option>Required</option>
+						<option>Not Required</option>
+					</select>
+				</div>
+				  
+				  
+				  
+				  <div class="col-xs-4">
+					<label for="ex2">Address Proof:</label>
+					<select class="form-control" id="sel1" name="address" required>
+						<option>Select Address Proof</option>
+						<option>Adhar Card</option>
+						<option>Pan Card</option>
+						<option>Passport</option>
+					</select> 
+				  </div>
+				  <div class="col-xs-4">
+					<label for="ex2">Photo Id Proof:</label>
+					<select class="form-control" id="sel1" name="photo" required>
+						<option>Select Photo Id Proof</option>
+						<option>Adhar Card</option>
+						<option>Passport</option>
+					 </select> 
+				   </div><br><br><br><br><br>
+				  
+				    <div class="col-xs-4">
+					    
+					</div> 
+				   <div class="col-xs-3">
+					<input name="submit_btn1" id="Sbutton1" type="submit" class="btn btn-primary">
+				  </div>
+				  <div class="col-xs-3">
+					<input name="submit_btn1" id="Sbutton1" type="reset" class="btn btn-primary">
+				  </div><br>
+			  </form>
+		  </div>
+        </div>
+      </div>
+    </div>	
+ </div>
+
+</body>
+<body>
+
+</html>

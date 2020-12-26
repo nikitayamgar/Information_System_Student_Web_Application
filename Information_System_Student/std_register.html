@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="Keywords" content="College, Pokhara, IT College, Lions Marga, college in pokhara, nepalIT">
+ <meta name="author" content="Bishworaj Poudel">
+ <link rel="stylesheet" type="text/css" href="css/style.css">
+<script src="javascript/js.js="></script>
+
+<body class="body">
+	<header class="mainheader">
+		<img src="images/logo.png">
+	<content id="search">
+		<form>
+			<input type="text" name="search" placeholder="Search anything..." onclick="window.location.href='search.html'">
+		</form>
+	</content>
+	<nav>
+		<ul>
+			<li><a href="adminindex.html">Home</a></li>
+			<li><a href="std_register.html">Student Register</a></li>
+			<li><a href="cmp_register.html">Add Company</a></li>
+			<li><a href="Database/student_list.php">Student List</a></li>
+			<li><a href="DataBase/company_list.php">Company List</a></li>
+			<li><a href=" DataBase/Student_Sorted_list.php">Sort List Student</a></li>
+
+		</ul> 
+	</nav>
+	
+  <title>Student Register</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style>
+	.txt
+	{
+		height:150px;
+		width:100%;
+		border-radius:10px;
+	}
+  </style>
+  </body>
+  <title>Student List</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style>
+	.txt
+	{
+		height:150px;
+		width:100%;
+		border-radius:10px;
+	}
+  </style>
+  <title>Student Register</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style>
+	.txt
+	{
+		height:150px;
+		width:100%;
+		border-radius:10px;
+	}
+  </style>
+</head>
+<body>
+ 
+<div class="container">
+  <div class="panel-group">
+	<h2>Student Register</h2>
+    <div class="panel panel-primary">
+      <div class="panel-heading">Student Registaration Form</div>
+		    <div class="panel-body">
+			  <form method="post" action="DataBase/sregister.php">
+				  <div class="col-xs-7">
+						<label for="ex2">Student Full Name:</label>
+						<input name="name" id="name" class="form-control" type="text"
+						pattern="[A-Za-z]{3,20} [A-Za-z]{3,20} [A-Za-z]{3,20}"
+						placeholder="First Name       Middle Name        Last Name" required>
+				  </div>
+				  
+				  <div class="col-xs-5">
+					<label for="ex2">Student E-Mail:</label>
+					<input name="email" id="pid1" class="form-control" type="Email"  placeholder="E-Mail" required>
+				  </div><br><br><br><br><br>
+				  
+				   <div class="col-xs-4">
+					<label for="ex1">Student Mobile No:</label>
+					<input name="mobileno" id="pid1" class="form-control" pattern="[0-9]{10,10}" type="text" placeholder="Mobile Number" required>
+				  </div>
+				  
+				   <div class="col-xs-4">
+					<label for="ex1">Student DOB:</label>
+					<input name="dob" id="pid1" class="form-control" type="date" placeholder="dd-mm-yy" required>
+				  </div>
+				  
+				  <div class="col-xs-4">
+					<label for="ex2">10th Percentage:</label>
+					<input name="tenperc" id="uid1" class="form-control" type="text" pattern="[0-9]{2}" placeholder="10th percantage" required>
+				  </div>
+				  
+				  <div class="col-md-4">
+					<div class="thumbnail">
+						<img src="image/image1.jpg" alt="Fjords" style="width:100%">
+					</div>
+				  </div>
+				  
+				  <div class="col-xs-4">
+					<label for="ex1">10th Passing Year:</label>
+					<input name="tenyear" id="dob1" class="form-control" type="text" pattern="[0-9]{4}" placeholder="10th Passing Year" required> 
+				  </div><br><br><br><br><br>
+				  
+				  <div class="col-xs-4">
+					<label for="ex2">12th/Diploma Percantage:</label>
+					<input name="twelthperc" id="age1" class="form-control" type="text" pattern="[0-9]{2}" placeholder="12th/Diploma percantage" required>
+				  </div>
+				  <div class="col-xs-4">
+					<label for="ex2">12th/Diploma Passing Year:</label>
+					<input name="twelthyear" id="gender1" class="form-control" type="text" pattern="[0-9]{4}"  placeholder="12th/Diploma Passing Year" required>
+				  </div>
+				  
+				  <div class="col-xs-4">
+					<label for="ex2">Degree All Agreegate:</label>
+					<input name="degree" id="mno1" class="form-control" type="text" pattern="[0-9]{2}" placeholder="Degree All Agreegate" required>
+				  </div><br><br><br><br><br>
+				  
+				  <div class="col-xs-4">
+					<label for="ex2">Degree Passing Year:</label>
+					<input name="degreeyear" id="mno1" class="form-control" type="text" pattern="[0-9]{4}" placeholder="Degree All Agreegate" required>
+				  </div>
+				 
+				  <div class="col-xs-4">
+					<label for="ex2">Do Have Any Gap:</label>
+					<input name="gap" id="mno1" class="form-control" type="text" pattern="[0-9]{1}" placeholder="Degree All Agreegate" required>
+				  </div>
+				  
+				  <div class="col-xs-4">
+					<label for="ex2">Do Have Any Gap:</label>
+					<input name="gap" id="mno1" class="form-control" type="text" placeholder="Degree All Agreegate" required>
+				  </div>
+				  
+				  <div class="col-xs-4">
+				  </div>
+				  
+				  <div class="col-xs-3">
+					<input name="submit_btn1" id="Sbutton1" type="submit" class="btn btn-primary">
+				  </div>
+				  <div class="col-xs-3">
+					<input name="Rbutton" id="Sbutton1" type="reset" class="btn btn-primary">
+				  </div>
+			  </form>
+		  </div>
+        </div>
+      </div>
+    </div>	
+ </div>
+
+</body>
+</html>
